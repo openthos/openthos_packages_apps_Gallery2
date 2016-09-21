@@ -17,6 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <style name="Theme.GalleryBase" parent="android:Theme.Holo">
         <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
         <item name="switchStyle">@android:style/Widget.CompoundButton</item>
     </style>
     <style name="Theme.Gallery.Dialog" parent="android:Theme.Holo.Dialog"/>
